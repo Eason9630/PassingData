@@ -13,6 +13,10 @@
 		E9AAB52F2AAC158400409184 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9AAB52D2AAC158400409184 /* Main.storyboard */; };
 		E9AAB5312AAC158600409184 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9AAB5302AAC158600409184 /* Assets.xcassets */; };
 		E9AAB5342AAC158600409184 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9AAB5322AAC158600409184 /* LaunchScreen.storyboard */; };
+		E9AAB53C2AAC1B6B00409184 /* SecondCustomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AAB53B2AAC1B6B00409184 /* SecondCustomViewController.swift */; };
+		E9AAB53E2AAC538800409184 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AAB53D2AAC538800409184 /* SecondViewController.swift */; };
+		E9AAB5402AAC539400409184 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AAB53F2AAC539400409184 /* ThirdViewController.swift */; };
+		E9AAB5432AAC560800409184 /* TextEntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AAB5422AAC560800409184 /* TextEntryViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		E9AAB5302AAC158600409184 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E9AAB5332AAC158600409184 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E9AAB5352AAC158600409184 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9AAB53B2AAC1B6B00409184 /* SecondCustomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondCustomViewController.swift; sourceTree = "<group>"; };
+		E9AAB53D2AAC538800409184 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		E9AAB53F2AAC539400409184 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		E9AAB5422AAC560800409184 /* TextEntryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEntryViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +66,25 @@
 			children = (
 				E9AAB5272AAC158400409184 /* AppDelegate.swift */,
 				E9AAB5292AAC158400409184 /* SceneDelegate.swift */,
-				E9AAB52B2AAC158400409184 /* ViewController.swift */,
+				E9AAB5412AAC53A000409184 /* Tap Controller */,
+				E9AAB53B2AAC1B6B00409184 /* SecondCustomViewController.swift */,
 				E9AAB52D2AAC158400409184 /* Main.storyboard */,
 				E9AAB5302AAC158600409184 /* Assets.xcassets */,
 				E9AAB5322AAC158600409184 /* LaunchScreen.storyboard */,
 				E9AAB5352AAC158600409184 /* Info.plist */,
+				E9AAB5422AAC560800409184 /* TextEntryViewController.swift */,
 			);
 			path = PassingData;
+			sourceTree = "<group>";
+		};
+		E9AAB5412AAC53A000409184 /* Tap Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E9AAB52B2AAC158400409184 /* ViewController.swift */,
+				E9AAB53D2AAC538800409184 /* SecondViewController.swift */,
+				E9AAB53F2AAC539400409184 /* ThirdViewController.swift */,
+			);
+			path = "Tap Controller";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,6 +160,10 @@
 			files = (
 				E9AAB52C2AAC158400409184 /* ViewController.swift in Sources */,
 				E9AAB5282AAC158400409184 /* AppDelegate.swift in Sources */,
+				E9AAB53C2AAC1B6B00409184 /* SecondCustomViewController.swift in Sources */,
+				E9AAB5432AAC560800409184 /* TextEntryViewController.swift in Sources */,
+				E9AAB53E2AAC538800409184 /* SecondViewController.swift in Sources */,
+				E9AAB5402AAC539400409184 /* ThirdViewController.swift in Sources */,
 				E9AAB52A2AAC158400409184 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
